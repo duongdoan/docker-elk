@@ -8,7 +8,7 @@ http {
                              'rt=$request_time rl=$request_length uct="$upstream_connect_time" uht="$upstream_header_time" urt="$upstream_response_time"';
 
     server {
-        access_log /var/logs/nginx/access.log apm;
+        access_log /var/log/nginx/access.log apm;
         ...
     }
 }

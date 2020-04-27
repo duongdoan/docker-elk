@@ -1,7 +1,7 @@
-#Modify file config
+# Modify file config
 
-#```
-#http {
+# ```
+# http {
 #    log_format apm '$remote_addr - $remote_user [$time_local] '
 #                             '"$request" $status $body_bytes_sent '
 #                             '"$http_referer" "$http_user_agent" '
@@ -11,5 +11,5 @@
 #        access_log /var/log/nginx/access.log apm;
 #        ...
 #    }
-#}
-#```
+# }
+# ```
